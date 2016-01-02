@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+
+  "name": "Website Timer",
+  "description": "Track time spent on websites and individual web pages.",
+
+  "version": "0.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "https://ajax.googleapis.com/"
+  ]
+}
